@@ -1,0 +1,208 @@
+[
+  {
+    "args": [
+      "--config",
+      "configs/phase1.json"
+    ],
+    "id": "phase1",
+    "module": "finbert_explainability"
+  },
+  {
+    "args": [
+      "audit",
+      "--phase1",
+      "artifacts/phase1",
+      "--output",
+      "artifacts/phase2/audit"
+    ],
+    "id": "phase2_audit",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "smoke",
+      "--output",
+      "artifacts/phase2/smoke-final"
+    ],
+    "id": "phase2_smoke",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "train",
+      "baseline",
+      "--config",
+      "configs/phase2.json",
+      "--output",
+      "artifacts/phase2/baseline",
+      "--approve-training",
+      "--smoke-receipt",
+      "artifacts/phase2/smoke-final/smoke_receipt.json"
+    ],
+    "id": "phase2_train_baseline",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "train",
+      "bert",
+      "--config",
+      "configs/phase2.json",
+      "--output",
+      "artifacts/phase2/bert",
+      "--approve-training",
+      "--smoke-receipt",
+      "artifacts/phase2/smoke-final/smoke_receipt.json"
+    ],
+    "id": "phase2_train_bert",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "train",
+      "finbert",
+      "--config",
+      "configs/phase2.json",
+      "--output",
+      "artifacts/phase2/finbert",
+      "--approve-training",
+      "--smoke-receipt",
+      "artifacts/phase2/smoke-final/smoke_receipt.json"
+    ],
+    "id": "phase2_train_finbert",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "evaluate",
+      "--run",
+      "artifacts/phase2/baseline",
+      "--output",
+      "artifacts/phase2/baseline-evaluation"
+    ],
+    "id": "phase2_evaluate_baseline",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "evaluate",
+      "--run",
+      "artifacts/phase2/bert",
+      "--output",
+      "artifacts/phase2/bert-evaluation"
+    ],
+    "id": "phase2_evaluate_bert",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "evaluate",
+      "--run",
+      "artifacts/phase2/finbert",
+      "--output",
+      "artifacts/phase2/finbert-evaluation"
+    ],
+    "id": "phase2_evaluate_finbert",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "reference",
+      "--config",
+      "configs/phase2.json",
+      "--output",
+      "artifacts/phase2/reference"
+    ],
+    "id": "phase2_reference",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "compare",
+      "--runs",
+      "artifacts/phase2/baseline-evaluation",
+      "artifacts/phase2/bert-evaluation",
+      "artifacts/phase2/finbert-evaluation",
+      "artifacts/phase2/reference",
+      "--output",
+      "artifacts/phase2/comparison"
+    ],
+    "id": "phase2_compare",
+    "module": "finbert_explainability.phase2"
+  },
+  {
+    "args": [
+      "smoke",
+      "--output",
+      "artifacts/phase3-smoke"
+    ],
+    "id": "phase3_smoke",
+    "module": "finbert_explainability.phase3"
+  },
+  {
+    "args": [
+      "analyze",
+      "--config",
+      "configs/phase3.json",
+      "--smoke-receipt",
+      "artifacts/phase3-smoke/smoke_receipt.json"
+    ],
+    "id": "phase3",
+    "module": "finbert_explainability.phase3"
+  },
+  {
+    "args": [
+      "smoke",
+      "--output",
+      "artifacts/phase4/smoke"
+    ],
+    "id": "phase4_smoke",
+    "module": "finbert_explainability.phase4"
+  },
+  {
+    "args": [
+      "run",
+      "--config",
+      "configs/phase4.json"
+    ],
+    "id": "phase4",
+    "module": "finbert_explainability.phase4"
+  },
+  {
+    "args": [
+      "cpu-smoke",
+      "--output",
+      "artifacts/phase5/cpu-smoke"
+    ],
+    "id": "phase5_cpu",
+    "module": "finbert_explainability.phase5"
+  },
+  {
+    "args": [
+      "run",
+      "--config",
+      "configs/phase5/cuda-smoke.json",
+      "--smoke"
+    ],
+    "id": "phase5_cuda",
+    "module": "finbert_explainability.phase5"
+  },
+  {
+    "args": [
+      "run",
+      "--config",
+      "configs/phase5.json"
+    ],
+    "id": "phase5",
+    "module": "finbert_explainability.phase5"
+  },
+  {
+    "args": [
+      "audit",
+      "--output",
+      "artifacts/phase6/audit-final"
+    ],
+    "id": "phase6",
+    "module": "finbert_explainability.phase6"
+  }
+]

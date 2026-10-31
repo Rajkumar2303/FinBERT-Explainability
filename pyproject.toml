@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "finbert-explainability"
+version = "0.1.0"
+description = "Reproducible, leakage-aware Financial PhraseBank preparation"
+requires-python = ">=3.10"
+dependencies = ["torch>=2", "datasets>=3", "scikit-learn>=1.3", "numpy>=1.24", "huggingface-hub>=0.25"]
+
+[project.optional-dependencies]
+test = ["pytest>=8"]
+phase2 = ["transformers>=5.13,<6", "accelerate>=1.15,<2", "joblib>=1.3"]
+
+[project.scripts]
+finbert-prepare = "finbert_explainability.cli:main"
+finbert-experiment = "finbert_explainability.phase2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

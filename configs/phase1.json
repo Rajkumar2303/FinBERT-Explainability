@@ -1,0 +1,10 @@
+{
+  "seed": 42,
+  "dataset_repo": "takala/financial_phrasebank",
+  "revision": "8d3fe0c36d5feec6b3cc5e455b0fcb4820fb9964",
+  "archive_sha256": "0e1a06c4900fdae46091d031068601e3773ba067c7cecb5b0da1dcba5ce989a6",
+  "fractions": [0.70, 0.15, 0.15],
+  "near_duplicate_threshold": 0.90,
+  "output_dir": "artifacts/phase1",
+  "cache_dir": ".cache/huggingface"
+}

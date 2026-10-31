@@ -1,0 +1,17 @@
+{
+  "phase1_dir": "artifacts/phase1",
+  "phase2_dir": "artifacts/phase2",
+  "output_dir": "artifacts/phase3",
+  "report_path": "PHASE3_RESULTS.md",
+  "seeds": [42, 123, 2026],
+  "bins": [10, 15],
+  "small_class_count": 50,
+  "small_subgroup_count": 100,
+  "probability_tolerance": 0.00001,
+  "confident_error_threshold": 0.9,
+  "error_examples": 20,
+  "company_names": ["Nokia Siemens Networks", "Alma Media", "Done Solutions", "Technopolis", "Elcoteq", "Incap", "MegaFon", "TeliaSonera", "Fiskars", "Nokia", "Nordea", "Ruukki", "CapMan", "Aldata", "YIT", "Ramirent", "Digia", "Samsung", "Affecto", "Wartsila", "UPM"],
+  "replacement_company": "Example Holdings",
+  "monetary_scale": 2,
+  "random_seed": 42
+}

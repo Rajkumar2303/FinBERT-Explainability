@@ -1,0 +1,1170 @@
+{
+  "completed_on": "2026-10-31",
+  "passed": true,
+  "checks": [
+    {
+      "check": "frozen test SHA256",
+      "passed": true
+    },
+    {
+      "check": "Phase 1 manifest SHA256",
+      "passed": true
+    },
+    {
+      "check": "split sizes",
+      "passed": true
+    },
+    {
+      "check": "moved-row interpretation",
+      "passed": true
+    },
+    {
+      "check": "saved duplicate-group audit",
+      "passed": true
+    },
+    {
+      "check": "training seeds and effective batch configuration",
+      "passed": true
+    },
+    {
+      "check": "fixed IG seed schedule and tolerances",
+      "passed": true
+    },
+    {
+      "check": "attention experiment configuration",
+      "passed": true
+    },
+    {
+      "check": "required file 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "required file 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "required file 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "required file 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "required file 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "required file 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "required file 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "required file 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "required file 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "required file 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "required file 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "required file 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "required file README.md",
+      "passed": true
+    },
+    {
+      "check": "required file interview_preparation.md",
+      "passed": true
+    },
+    {
+      "check": "required file technical_glossary.md",
+      "passed": true
+    },
+    {
+      "check": "required file references.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "at least three progressive lessons 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "ten teaching stages in order 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "answered concept checks every lesson 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "explicit learning objectives 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "five answered self-assessment questions 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "60 interview questions",
+      "passed": true
+    },
+    {
+      "check": "interview answer depth and follow-ups",
+      "passed": true
+    },
+    {
+      "check": "baseline Phase 2/3 consistency",
+      "passed": true
+    },
+    {
+      "check": "baseline macro F1: 0.6713",
+      "passed": true
+    },
+    {
+      "check": "baseline accuracy: 0.7442",
+      "passed": true
+    },
+    {
+      "check": "baseline negative precision: 0.8235",
+      "passed": true
+    },
+    {
+      "check": "baseline negative recall: 0.4615",
+      "passed": true
+    },
+    {
+      "check": "baseline negative f1: 0.5915",
+      "passed": true
+    },
+    {
+      "check": "baseline neutral precision: 0.7544",
+      "passed": true
+    },
+    {
+      "check": "baseline neutral recall: 0.9028",
+      "passed": true
+    },
+    {
+      "check": "baseline neutral f1: 0.8219",
+      "passed": true
+    },
+    {
+      "check": "baseline positive precision: 0.6855",
+      "passed": true
+    },
+    {
+      "check": "baseline positive recall: 0.5343",
+      "passed": true
+    },
+    {
+      "check": "baseline positive f1: 0.6006",
+      "passed": true
+    },
+    {
+      "check": "baseline macro_f1 sample SD: 0.0000",
+      "passed": true
+    },
+    {
+      "check": "baseline accuracy sample SD: 0.0000",
+      "passed": true
+    },
+    {
+      "check": "bert Phase 2/3 consistency",
+      "passed": true
+    },
+    {
+      "check": "bert macro F1: 0.8476",
+      "passed": true
+    },
+    {
+      "check": "bert accuracy: 0.8556",
+      "passed": true
+    },
+    {
+      "check": "bert negative precision: 0.8625",
+      "passed": true
+    },
+    {
+      "check": "bert negative recall: 0.8718",
+      "passed": true
+    },
+    {
+      "check": "bert negative f1: 0.8670",
+      "passed": true
+    },
+    {
+      "check": "bert neutral precision: 0.8926",
+      "passed": true
+    },
+    {
+      "check": "bert neutral recall: 0.8758",
+      "passed": true
+    },
+    {
+      "check": "bert neutral f1: 0.8839",
+      "passed": true
+    },
+    {
+      "check": "bert positive precision: 0.7797",
+      "passed": true
+    },
+    {
+      "check": "bert positive recall: 0.8056",
+      "passed": true
+    },
+    {
+      "check": "bert positive f1: 0.7919",
+      "passed": true
+    },
+    {
+      "check": "bert macro_f1 sample SD: 0.0034",
+      "passed": true
+    },
+    {
+      "check": "bert accuracy sample SD: 0.0014",
+      "passed": true
+    },
+    {
+      "check": "finbert Phase 2/3 consistency",
+      "passed": true
+    },
+    {
+      "check": "finbert macro F1: 0.8339",
+      "passed": true
+    },
+    {
+      "check": "finbert accuracy: 0.8469",
+      "passed": true
+    },
+    {
+      "check": "finbert negative precision: 0.8290",
+      "passed": true
+    },
+    {
+      "check": "finbert negative recall: 0.8498",
+      "passed": true
+    },
+    {
+      "check": "finbert negative f1: 0.8390",
+      "passed": true
+    },
+    {
+      "check": "finbert neutral precision: 0.8922",
+      "passed": true
+    },
+    {
+      "check": "finbert neutral recall: 0.8681",
+      "passed": true
+    },
+    {
+      "check": "finbert neutral f1: 0.8799",
+      "passed": true
+    },
+    {
+      "check": "finbert positive precision: 0.7659",
+      "passed": true
+    },
+    {
+      "check": "finbert positive recall: 0.8007",
+      "passed": true
+    },
+    {
+      "check": "finbert positive f1: 0.7828",
+      "passed": true
+    },
+    {
+      "check": "finbert macro_f1 sample SD: 0.0093",
+      "passed": true
+    },
+    {
+      "check": "finbert accuracy sample SD: 0.0097",
+      "passed": true
+    },
+    {
+      "check": "baseline ece_10: 0.0701",
+      "passed": true
+    },
+    {
+      "check": "baseline ece_15: 0.0730",
+      "passed": true
+    },
+    {
+      "check": "baseline brier: 0.3674",
+      "passed": true
+    },
+    {
+      "check": "baseline nll: 0.6320",
+      "passed": true
+    },
+    {
+      "check": "baseline visible company: 0.2019",
+      "passed": true
+    },
+    {
+      "check": "baseline visible numerical: 0.0769",
+      "passed": true
+    },
+    {
+      "check": "baseline visible negation: 0.0640",
+      "passed": true
+    },
+    {
+      "check": "bert ece_10: 0.1064",
+      "passed": true
+    },
+    {
+      "check": "bert ece_15: 0.1088",
+      "passed": true
+    },
+    {
+      "check": "bert brier: 0.2468",
+      "passed": true
+    },
+    {
+      "check": "bert nll: 0.5115",
+      "passed": true
+    },
+    {
+      "check": "bert visible company: 0.0128",
+      "passed": true
+    },
+    {
+      "check": "bert visible numerical: 0.0031",
+      "passed": true
+    },
+    {
+      "check": "bert visible negation: 0.2255",
+      "passed": true
+    },
+    {
+      "check": "finbert ece_10: 0.0923",
+      "passed": true
+    },
+    {
+      "check": "finbert ece_15: 0.0944",
+      "passed": true
+    },
+    {
+      "check": "finbert brier: 0.2620",
+      "passed": true
+    },
+    {
+      "check": "finbert nll: 0.6022",
+      "passed": true
+    },
+    {
+      "check": "finbert visible company: 0.0192",
+      "passed": true
+    },
+    {
+      "check": "finbert visible numerical: 0.0000",
+      "passed": true
+    },
+    {
+      "check": "finbert visible negation: 0.1889",
+      "passed": true
+    },
+    {
+      "check": "converged Spearman: 0.2406",
+      "passed": true
+    },
+    {
+      "check": "converged Kendall: 0.1724",
+      "passed": true
+    },
+    {
+      "check": "converged IG AUC: 0.6555",
+      "passed": true
+    },
+    {
+      "check": "converged attention AUC: 0.6608",
+      "passed": true
+    },
+    {
+      "check": "converged random AUC: 0.7866",
+      "passed": true
+    },
+    {
+      "check": "converged paired CI endpoint: -0.0130",
+      "passed": true
+    },
+    {
+      "check": "converged paired CI endpoint: 0.0024",
+      "passed": true
+    },
+    {
+      "check": "all Spearman: 0.2465",
+      "passed": true
+    },
+    {
+      "check": "all Kendall: 0.1764",
+      "passed": true
+    },
+    {
+      "check": "all IG AUC: 0.6353",
+      "passed": true
+    },
+    {
+      "check": "all attention AUC: 0.6372",
+      "passed": true
+    },
+    {
+      "check": "all random AUC: 0.7778",
+      "passed": true
+    },
+    {
+      "check": "all paired CI endpoint: -0.0097",
+      "passed": true
+    },
+    {
+      "check": "all paired CI endpoint: 0.0061",
+      "passed": true
+    },
+    {
+      "check": "IG populations",
+      "passed": true
+    },
+    {
+      "check": "non-random exclusion composition",
+      "passed": true
+    },
+    {
+      "check": "current user-supplied category counts",
+      "passed": true
+    },
+    {
+      "check": "initial IG wall seconds: 107.14",
+      "passed": true
+    },
+    {
+      "check": "full explanation wall seconds: 951.44",
+      "passed": true
+    },
+    {
+      "check": "Phase 5/6 correlation agreement",
+      "passed": true
+    },
+    {
+      "check": "bert parameter count from safetensors header",
+      "passed": true
+    },
+    {
+      "check": "finbert parameter count from safetensors header",
+      "passed": true
+    },
+    {
+      "check": "FinBERT actual best epochs",
+      "passed": true
+    },
+    {
+      "check": "19 real CLI parses without workflow execution",
+      "passed": true
+    },
+    {
+      "check": "source symbols src/finbert_explainability/data.py",
+      "passed": true
+    },
+    {
+      "check": "source symbols src/finbert_explainability/splitting.py",
+      "passed": true
+    },
+    {
+      "check": "source symbols src/finbert_explainability/leakage.py",
+      "passed": true
+    },
+    {
+      "check": "source symbols src/finbert_explainability/phase4/core.py",
+      "passed": true
+    },
+    {
+      "check": "source symbols src/finbert_explainability/phase5/analysis.py",
+      "passed": true
+    },
+    {
+      "check": "source symbols src/finbert_explainability/phase5/inference.py",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "restricted Mermaid flowchart grammar 00_project_overview.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 01_foundations_and_theory.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "restricted Mermaid flowchart grammar 02_dataset_and_preprocessing.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 03_model_architecture.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 04_baselines_and_training.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 05_evaluation_and_validation.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 06_calibration_and_robustness.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 07_integrated_gradients.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 08_attention_mechanisms.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "restricted Mermaid flowchart grammar 09_explainability_experiments.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 10_results_and_discussion.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences 11_improvements_and_future_research.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters coverage_matrix.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences coverage_matrix.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters evidence_gaps.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences evidence_gaps.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters interview_preparation.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences interview_preparation.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters README.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences README.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters references.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences references.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters reproduction_commands.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences reproduction_commands.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters teaching_review.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences teaching_review.md",
+      "passed": true
+    },
+    {
+      "check": "no accidental control characters technical_glossary.md",
+      "passed": true
+    },
+    {
+      "check": "balanced fences technical_glossary.md",
+      "passed": true
+    },
+    {
+      "check": "all local Markdown targets and used heading anchors resolve",
+      "passed": true
+    },
+    {
+      "check": "at most four Mermaid diagrams",
+      "passed": true
+    },
+    {
+      "check": "at most two experiment diagrams",
+      "passed": true
+    },
+    {
+      "check": "historical Phase 6 inventory remains byte-identical",
+      "passed": true
+    },
+    {
+      "check": "earlier readable non-cache files unchanged since first documentation validation",
+      "passed": true
+    }
+  ],
+  "errors": [],
+  "local_links_checked": 427,
+  "missing_links": [],
+  "main_chapters": 12,
+  "required_files": 16,
+  "interview_questions": 60,
+  "self_assessment_questions": 60,
+  "mermaid": [
+    {
+      "file": "00_project_overview.md",
+      "basic_syntax_valid": true
+    },
+    {
+      "file": "02_dataset_and_preprocessing.md",
+      "basic_syntax_valid": true
+    },
+    {
+      "file": "09_explainability_experiments.md",
+      "basic_syntax_valid": true
+    }
+  ],
+  "teaching_lessons": {
+    "00_project_overview.md": 3,
+    "01_foundations_and_theory.md": 5,
+    "02_dataset_and_preprocessing.md": 4,
+    "03_model_architecture.md": 3,
+    "04_baselines_and_training.md": 4,
+    "05_evaluation_and_validation.md": 6,
+    "06_calibration_and_robustness.md": 5,
+    "07_integrated_gradients.md": 5,
+    "08_attention_mechanisms.md": 3,
+    "09_explainability_experiments.md": 4,
+    "10_results_and_discussion.md": 4,
+    "11_improvements_and_future_research.md": 5
+  },
+  "total_teaching_lessons": 51,
+  "mermaid_validation_scope": "Restricted flowchart grammar and balanced fences only; Mermaid rendering was not run.",
+  "numeric_validation_scope": "Label-bound headline/calibration/robustness/sensitivity assertions, source ledger, cross-phase consistency and manual review; not a parser proving every natural-language claim.",
+  "cli_commands": [
+    {
+      "id": "phase1",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_audit",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_smoke",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_train_baseline",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_train_bert",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_train_finbert",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_evaluate_baseline",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_evaluate_bert",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_evaluate_finbert",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_reference",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase2_compare",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase3_smoke",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase3",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase4_smoke",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase4",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase5_cpu",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase5_cuda",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase5",
+      "parsed": true,
+      "workflow_executed": false
+    },
+    {
+      "id": "phase6",
+      "parsed": true,
+      "workflow_executed": false
+    }
+  ],
+  "files": [
+    {
+      "file": "00_project_overview.md",
+      "bytes": 17097,
+      "words": 2443
+    },
+    {
+      "file": "01_foundations_and_theory.md",
+      "bytes": 20395,
+      "words": 3036
+    },
+    {
+      "file": "02_dataset_and_preprocessing.md",
+      "bytes": 15979,
+      "words": 2308
+    },
+    {
+      "file": "03_model_architecture.md",
+      "bytes": 14307,
+      "words": 1964
+    },
+    {
+      "file": "04_baselines_and_training.md",
+      "bytes": 18385,
+      "words": 2664
+    },
+    {
+      "file": "05_evaluation_and_validation.md",
+      "bytes": 22647,
+      "words": 3478
+    },
+    {
+      "file": "06_calibration_and_robustness.md",
+      "bytes": 18774,
+      "words": 2829
+    },
+    {
+      "file": "07_integrated_gradients.md",
+      "bytes": 21780,
+      "words": 3133
+    },
+    {
+      "file": "08_attention_mechanisms.md",
+      "bytes": 13202,
+      "words": 1960
+    },
+    {
+      "file": "09_explainability_experiments.md",
+      "bytes": 19083,
+      "words": 2813
+    },
+    {
+      "file": "10_results_and_discussion.md",
+      "bytes": 15793,
+      "words": 2226
+    },
+    {
+      "file": "11_improvements_and_future_research.md",
+      "bytes": 50242,
+      "words": 6731
+    },
+    {
+      "file": "coverage_matrix.md",
+      "bytes": 3761,
+      "words": 431
+    },
+    {
+      "file": "evidence_gaps.md",
+      "bytes": 3982,
+      "words": 544
+    },
+    {
+      "file": "interview_preparation.md",
+      "bytes": 37265,
+      "words": 5310
+    },
+    {
+      "file": "README.md",
+      "bytes": 7206,
+      "words": 995
+    },
+    {
+      "file": "references.md",
+      "bytes": 8828,
+      "words": 1134
+    },
+    {
+      "file": "reproduction_commands.md",
+      "bytes": 4566,
+      "words": 510
+    },
+    {
+      "file": "teaching_review.md",
+      "bytes": 5850,
+      "words": 722
+    },
+    {
+      "file": "technical_glossary.md",
+      "bytes": 35164,
+      "words": 4614
+    }
+  ],
+  "markdown_files": 20,
+  "total_markdown_bytes": 354306,
+  "total_markdown_words": 49845,
+  "preservation": {
+    "readable_files": 3457,
+    "changed": [],
+    "added_outside_learning": [],
+    "skipped": [],
+    "historical_phase6_files": 3212,
+    "historical_changed": [],
+    "scope": "Baseline captured at first completed documentation validation after drafting; all authoring writes confined to learning. Historical Phase 6 inventory independently checked. Cache/Git/temporary annotation and pytest scratch excluded."
+  },
+  "runtime_python": "C:\\Users\\rajku\\anaconda3\\envs\\rag-env\\python.exe",
+  "no_training_or_inference": true,
+  "known_limitations": [
+    "External reference pages verified during authoring, not re-fetched by this script.",
+    "Old annotation manifest exception remains; not rewritten.",
+    "Historical resume context may change when new documentation is added."
+  ]
+}

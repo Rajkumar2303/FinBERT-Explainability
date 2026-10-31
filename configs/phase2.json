@@ -1,0 +1,22 @@
+{
+  "phase1_dir": "artifacts/phase1",
+  "cache_dir": ".cache/huggingface",
+  "seeds": [42, 123, 2026],
+  "search_seed": 42,
+  "max_length": 64,
+  "per_device_batch_size": 8,
+  "gradient_accumulation_steps": 2,
+  "fp16": true,
+  "learning_rates": [0.00002, 0.00003],
+  "epochs": [3, 4],
+  "weight_decay": 0.01,
+  "baseline_c": [0.1, 1.0, 10.0],
+  "baseline_ngram_ranges": [[1, 1], [1, 2]],
+  "baseline_max_features": 20000,
+  "baseline_max_iter": 2000,
+  "models": {
+    "bert": {"id": "google-bert/bert-base-uncased", "revision": "86b5e0934494bd15c9632b12f734a8a67f723594"},
+    "finbert": {"id": "yiyanghkust/finbert-pretrain", "revision": "88ab954a39ea6d3ce2b62cff086dd5ad1172c664"},
+    "reference": {"id": "ProsusAI/finbert", "revision": "0bc2ac10dda6929bcb1f77ccc43c7ec5c424f031"}
+  }
+}

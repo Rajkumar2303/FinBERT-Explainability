@@ -1,0 +1,26 @@
+{
+  "phase1_dir": "artifacts/phase1",
+  "phase2_dir": "artifacts/phase2",
+  "phase3_dir": "artifacts/phase3",
+  "output_dir": "artifacts/phase4/full-test",
+  "report_path": "artifacts/phase4/full-test/PHASE4_RESULTS.md",
+  "model_kind": "finbert",
+  "model_seed": 42,
+  "random_seed": 42,
+  "max_length": 64,
+  "n_steps": [
+    50,
+    100,
+    200
+  ],
+  "internal_batch_size": 4,
+  "absolute_tolerance": 0.001,
+  "relative_tolerance": 0.01,
+  "relative_floor": 1e-06,
+  "probability_tolerance": 1e-05,
+  "logit_tolerance": 0.0001,
+  "examples_per_outcome": 5,
+  "sensitivity_per_outcome": 2,
+  "phase1_manifest_sha256": "c5b8f2b32453b22c9f5038ba844b3cc5c025bce603e27f7899e7d62e00a8c782",
+  "test_sha256": "97ad15089bd04e0d61726a6218bfcc2bdb18a4bcc1f5e8a299e1da41607e36a9"
+}
